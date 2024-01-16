@@ -7,9 +7,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 52px;
-    margin-right: 135px;
-    margin-left: 135px;
+    max-width: 1170px;
+    margin: 50px auto;
 }
 .nav-img{
     display: flex;
@@ -23,7 +22,7 @@ nav > ul{
 
 nav li {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 58px;
 }
 nav li a{
     text-decoration: none;
@@ -47,4 +46,117 @@ height: 56px;
 }
 .home{
     color: #FF5400;
+}
+
+/* main start */
+.explore{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png); 
+    width: 1170px;
+height: 400px;
+border-radius: 16px;
+background-repeat: no-repeat;
+margin: 50px auto;
+    text-align: center;
+    padding-top: 100px;
+}
+/* second section */
+.popular{
+    display: flex;
+    gap: 50px;
+    max-width: 1170px;
+    margin: 50px auto;
+}
+
+/* third-section */
+.third-section{
+    margin: 50px auto;
+    max-width: 1170px;
+
+}
+.destination-title{
+    text-align: center;
+}
+
+/* all-images */
+.first-son{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.grand-son{
+    position: relative;
+    text-align: center;
+}
+.text-country{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.+-large;
+  }
+  .second-son{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.third-son{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+
+/* last-section */
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 50px auto;
+    
+}
+.last-news{
+    margin: 40px 0px 40px 40px;
+}
+.placeholder{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-right: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer-section */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+/* height: 400px; */
+text-align: center;
+/* justify-content: center; */
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-icon{
+
 }
